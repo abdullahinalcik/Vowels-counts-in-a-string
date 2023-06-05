@@ -1,0 +1,20 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    & #prg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        /* color: blue; */
+    }
+}
+#span{
+    color: red;
+    font-weight: bold;
+
+}
